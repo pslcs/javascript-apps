@@ -1,0 +1,61 @@
+* {
+    margin: 0px auto;
+}
+
+.road {
+    width: 100%;
+    background-color: grey;
+    position: absolute;
+    top: 300px;
+    height: 100px;
+}
+
+.car { 
+    position: relative;
+    top: 150px;
+    height: 150px;
+    width: 200px;
+}
+
+.roof {
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    width: 100px;
+}
+
+.hood {
+    background-color: rgb(0, 0, 0);
+    height: 70px;
+    width: 200px;
+}
+
+.wheel {
+    background-color: rgba(255, 0, 0, 0.425);
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    position: relative;
+    color: white;
+    margin: 0px;
+}
+
+#left {
+    right: -5px;
+    bottom: 40px;
+}
+
+#right {
+    left: 125px;
+    bottom: 110px;
+}
+
+button {
+    border: 0px;
+    border-radius: 50%;
+    background-color: grey;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 300px;
+    left: 48%;
+}

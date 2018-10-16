@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: rgb(135, 135, 194);
+}
+.laikrodis{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: violet;
+    border: 1px solid greenyellow;
+}
+.hand{
+    width: 1px;
+    background-image: linear-gradient(to top, transparent 50%, greenyellow 50%);
+    position: relative;
+}
+.tick{
+    width: 1px;
+    height: 401px;
+    background-image: linear-gradient(to top, transparent 97.5%, greenyellow 2.5%);
+    position: absolute;
+    left: 201px;
+    top: 0px;
+}
+button{
+    border: 1px solid greenyellow;
+    background-color: violet;
+    color: greenyellow;
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+}
+@media screen and (min-width: 50px){
+.atick{
+    background-image: linear-gradient(to bottom, transparent 97.5%, greenyellow 2.5%);
+    width: 1px;
+    height: 401px;
+    position: absolute;
+    left: 201px;
+    top: 0px;
+}
+.numbers{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid greenyellow;
+    background-color: transparent;
+    text-align: center;
+}
+#t1, #at1{
+    transform: rotate(6deg);
+}
+#t2, #at2{
+    transform: rotate(12deg);
+}
+#t3, #at3{
+    transform: rotate(18deg);
+}
+#t4, #at4{
+    transform: rotate(24deg);
+}
+#t6, #at6{
+    transform: rotate(36deg);
+}
+#t7, #at7{
+    transform: rotate(42deg);
+}
+#t8, #at8{
+    transform: rotate(48deg);
+}
+#t9, #at9{
+    transform: rotate(54deg);
+}
+#t11, #at11{
+    transform: rotate(66deg);
+}
+#t12, #at12{
+    transform: rotate(72deg);
+}
+#t13, #at13{
+    transform: rotate(78deg);
+}
+#t14, #at14{
+    transform: rotate(84deg);
+}
+#t16, #at16{
+    transform: rotate(96deg);
+}
+#t17, #at17{
+    transform: rotate(102deg);
+}
+#t18, #at18{
+    transform: rotate(108deg);
+}
+#t19, #at19{
+    transform: rotate(114deg);
+}
+#t21, #at21{
+    transform: rotate(126deg);
+}
+#t22, #at22{
+    transform: rotate(132deg);
+}
+#t23, #at23{
+    transform: rotate(138deg);
+}
+#t24, #at24{
+    transform: rotate(144deg);
+}
+#t26, #at26{
+    transform: rotate(156deg);
+}
+#t27, #at27{
+    transform: rotate(162deg);
+}
+#t28, #at28{
+    transform: rotate(168deg);
+}
+#t29, #at29{
+    transform: rotate(174deg);
+}
+#second{
+    height: 361px;
+    top: 20px;
+    left: 201px;
+}
+#minute{
+    height: 301px;
+    top: -311px;
+    left: 201px;
+}
+#vienas{
+    left: 286px;
+    top: 26.46px;
+}
+#du{
+    left: 355.54px;
+    top: 96px;
+}
+#trys{
+    left: 381px;
+    top: 191px;
+}
+#keturi{
+    left: 356px;
+    top: 286px;
+}
+#penki{
+    left: 286px;
+    top: 354px;
+}
+#sesi{
+    left: 191px;
+    top: 381px;
+}
+#septyni{
+    left: 96px;
+    top: 354px;
+}
+#astuoni{
+    left: 26px;
+    top: 286px;
+}
+#devyni{
+    left: 0px;
+    top: 191px;
+}
+#desimt{
+    left: 26px;
+    top: 96px;
+}
+#vienuolika{
+    left: 96px;
+    top: 26px;
+}
+#dvylika{
+    top: 0px;
+    left: 191px;
+}
+}

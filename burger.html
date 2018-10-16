@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>The burger game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/burger.css" />
+</head>
+<body>
+    <div class="burger"></div>
+    <div class="ingredients">
+        <div class="ingredient" id="bot-bun" onclick="addToBurger('bot-bun2 ready food Bottom', 25)"><div class="bot-bun food menu"></div></div>
+        <div class="ingredient" id="top-bun" onclick="addToBurger('top-bun ready food Top', 50)"><div class="top-bun food menu"></div></div>
+        <div class="ingredient" id="meat" onclick="addToBurger('meat ready food Meat', 20)"><div class="meat food menu"></div></div>
+        <div class="ingredient" id="cheese" onclick="addToBurger('cheese ready food Cheese', 5)"><div class="cheese food menu"></div></div>
+        <div class="ingredient" id="tomato" onclick="addToBurger('tomato2 ready food Tomatoes', 20)"><div class="tomato food menu"></div></div>
+        <div class="ingredient" id="cucumber" onclick="addToBurger('cucumber2 ready food Cucumbers', 10)"><div class="cucumber food menu"></div></div>
+    </div>
+    <div class="uzsakymai">
+    </div>
+    <button type="button" class="mygtukas" onclick="checkBurger()">Serve</button>
+    <i class="far fa-3x fa-trash-alt siuksliadeze" onclick="trashBurger()"></i>
+    <div class="timerfield">Time left: <p id="time"></p></div>
+    <img class="plate" src="./assets/plate.png">
+
+    <script src="js/burger.js"></script>
+</body>
+</html>

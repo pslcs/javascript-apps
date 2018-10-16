@@ -1,0 +1,32 @@
+*{
+    margin: 0px auto;
+}
+.skaiciuotuvas{
+    width: 300px;
+    height: 650px;
+    background-color: rgb(255, 0, 157);
+    padding: 10px 0px 0px 10px;
+    margin-top: 50px;
+}
+.result{
+    width: 96%;
+    height: 50px;
+    margin-bottom: 20px;
+    font-size: 25pt;
+}
+.mygtukas{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(255, 0, 157);
+    margin: 7px;
+    border: 1px solid rgb(255, 47, 220);
+    color: greenyellow;
+}
+p{
+    font-size: 25pt
+}
+.result{
+    background-color: rgb(255, 0, 157);
+    border: 1px solid greenyellow;
+    color: greenyellow;
+}

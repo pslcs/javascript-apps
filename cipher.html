@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Cipher</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/cipher.css" />
+    
+</head>
+<body>
+    <div class="kairys">
+        <textarea class="nesifruotas" type="text" placeholder="Enter the text you want to cipher"></textarea>
+        <div class="ciphered text"></div>
+        <button type="button" class="cipher button" onclick="showCiphered()">Cipher</button>
+        <div id="mygtuko-vieta2"></div>
+    </div>
+    <div class="desinys">
+        <textarea class="sifruotas" type="text" placeholder="Enter the text you want to decipher"></textarea>
+        <div class="deciphered text"></div>
+        <button type="button" class="decipher button" onclick="showDeciphered()">Decipher</button>
+        <div id="mygtuko-vieta1"></div>
+    </div>    
+
+    <script src="../clipboard.js-master/dist/clipboard.min.js"></script>  
+    <script src="js/cipher.js"></script>
+</body>
+</html>

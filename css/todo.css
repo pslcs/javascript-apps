@@ -1,0 +1,95 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px auto;
+}
+.top {
+    background-color: #00B9FF;
+    height: 45px;
+    width: 350px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px 0 20px 0;
+}
+.bottom {
+    background-color: #9FDAFF;
+    min-height: 200px;
+    width: 350px;
+    padding: 30px 0 10px 0;
+    margin-bottom: -1px;
+}
+.bottomer {
+    background-color: #9FDAFF;
+    min-height: 200px;
+    width: 350px;
+    padding: 30px 0 10px 0;
+}
+.input {
+    height: 60px;
+    background-color: #03A7E4;
+    border-radius: 30px;
+    border: 0px;
+    margin: 10px;
+    width: 80%;
+    padding-left: 10px;
+    padding-right: 40px;
+    color: white;
+}
+.add {
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    border: 0px;
+    background-color: #00B9FF;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 60px;
+    position: relative;
+    bottom: 71px;
+    left: 137px;
+}
+
+::placeholder {
+    color: rgb(223, 223, 223);
+}
+
+.item {
+    margin: 10px;
+    background-color: #00B9FF;
+    height: auto;
+    width: 74%;
+    border-radius: 5px;
+    padding: 10px 70px 10px 0px;
+    color: white;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.342);
+    word-wrap: normal;
+}
+
+.itemas {
+    background-color: rgb(0, 148, 202);
+    margin: 10px;
+    height: auto;
+    width: 74%;
+    border-radius: 5px;
+    padding: 10px 70px 10px 0px;
+    color: white;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.342);
+    word-wrap: normal;
+}
+
+.trash {
+    position: relative;
+    color: white;
+    left: 109%;
+}
+
+.done {
+    position: relative;
+    color: white;
+    left: 105%;
+}
+.skyrius {
+    height: 1px;
+    width: 150px;
+    background-color: rgba(46, 168, 212, 0.61);    
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Smash!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/smash.css" />
+</head>
+<body>
+    <div class="gameboard">
+        <div class="menu">
+            <div class="ranks">
+                <h1>GAME OVER</h1>
+                <br>
+                <h3>High score: <h2 class="highScore"></h2></h3>
+                <br>
+                <h3>Your score: <h2 class="lastScore"></h2></h3>
+            </div>
+            <button type="button" class="startButton" onclick="startGame()">Start</button>
+            <button type="button" class="restartButton" onclick="restartGame()">Restart</button>
+        </div>
+        <h1 class="score"></h1>
+        <h1 class="level"></h1>
+        <div class="worm" id="worm1" onclick="smash(this)">
+            <div class="leye"><div class="leyeDot"></div></div>
+            <div class="reye"><div class="reyeDot"></div></div>
+            <div class="mouth"></div>
+        </div>
+        <div class="worm" id="worm2" onclick="smash(this)">
+            <div class="leye"><div class="leyeDot"></div></div>
+            <div class="reye"><div class="reyeDot"></div></div>
+            <div class="mouth"></div>
+        </div>
+        <div class="worm" id="worm3" onclick="smash(this)">
+            <div class="leye"><div class="leyeDot"></div></div>
+            <div class="reye"><div class="reyeDot"></div></div>
+            <div class="mouth"></div>
+        </div>
+    </div>
+
+    <script src="./js/smash.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/slideshow.css" />
+</head>
+<body>
+    <div class="remas">
+        <div class="konteineris"></div>
+        <button type="button" class="karusele" id="atgal" onmouseover="pauseSlides()" onmouseout="continueSlides()" onclick="previousSlide()"><</button>
+        <button type="button" class="karusele" id="pirmyn" onmouseover="pauseSlides()" onmouseout="continueSlides()" onclick="nextSlide()">></button>
+    </div>
+    <button type="button" class="button" onclick="startSlides()">Start slides</button>
+<script src="./js/slideshow.js"></script>
+</body>
+</html>

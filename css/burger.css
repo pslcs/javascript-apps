@@ -1,0 +1,212 @@
+*{
+    margin: 0px auto;
+}
+.burger {
+    margin: 0px;
+    top: 50px;
+    width: 450px;
+    height: 450px;
+    position: relative;
+    background-image: url(../assets/table.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.ingredients {
+    width: 450px;
+    left: 0px;
+    height: 300px;
+    background-image: url("../assets/woodtable.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 500px;
+}
+.ingredient {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
+.food {
+    background-repeat: no-repeat;
+    height: 150px;
+    background-size: contain;
+    width: 150px;
+}
+#bot-bun, #meat, #cucumber {
+    top: 150px;
+}
+#meat, #cheese {
+    left: 150px;
+}
+#cucumber, #tomato {
+    left: 300px;
+}
+.menu {
+    background-position: center center;
+}
+.cheese {
+    background-image: url("../assets/cheese.png");
+    background-size: contain;
+    position: relative;
+    margin: 0px;
+}
+.cheese.food.menu {
+    background-image: url("../assets/cheesemenu.png");
+}
+.cucumber {
+    position: relative;
+    background-image: url("../assets/cucumber.png");
+}
+.tomato {
+    position: relative;
+    background-image: url("../assets/tomato.png");
+}
+.tomato2 {
+    background-image: url("../assets/tomato2.png");
+    position: relative;
+}
+.cucumber2 {
+    background-image: url("../assets/cucumber2.png")
+}
+.meat {
+    position: relative;
+    background-image: url("../assets/beef.png");
+}
+.meat.food.menu {
+    background-image: url("../assets/beefmenu.png");
+}
+.bot-bun {
+    width: 150px;
+    position: relative;
+    background-image: url("../assets/bun-botmenu.png");
+    background-size: contain;
+}
+.bot-bun2 {
+    background-image: url("../assets/bun-bot2.png");
+    position: relative;
+}
+.top-bun {
+    position: relative;
+    background-image: url("../assets/bun-top.png");
+    background-size: contain;
+}
+.top-bun.food.menu {
+    background-image: url("../assets/bun-topmenu.png");
+}
+.ready {
+    left: 100px;
+    right: auto;
+    bottom: auto;
+    margin: 0px;
+    position: absolute;
+}
+.uzsakymai {
+    width: auto;
+    left: 450px;
+    height: auto;
+    top: 0px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+}
+.mygtukas {
+    position: absolute;
+    left: 225px;
+    top: 800px;
+    width: 100px;
+    height: 30px;
+}
+.mygtukas2 {
+    left: 125px;
+}
+.uzsakymoLapelis {
+    width: 150px;
+    height: auto;
+    background-image: url("../assets/sheet.png");
+    background-size: cover;
+    padding-bottom: 10px;
+}
+.uzsakymoPavadinimas {
+    text-align: center; 
+    padding: 15px 0px 5px 0px;
+}
+.timerfield {
+    width: 445px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 3rem;
+    padding-left: 5px;
+    background-color: #FEF1E0;
+}
+#time {
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: right;
+    position: relative;
+    bottom: 50px;
+    padding-right: 5px;
+}
+.plate {
+    height: 100px;
+    width: auto;
+    z-index: 1; 
+    position: relative;
+    bottom: 86px;
+    left: 62px;
+}
+.siuksliadeze {
+    position: absolute;
+    top: 430px;
+    left: 400px;
+    height: 50px;
+    width: 50px;
+}
+@media (min-width: 640px) and (max-height: 750px) {
+    .ingredients {
+        width: 450px;
+        left: 450px;
+        height: 300px;
+        background-image: url("../assets/woodtable.jpg");
+        background-size: cover;
+        position: absolute;
+        top: 200px;
+    }
+    .uzsakymai {
+        max-height: 200px;
+        width: 600px;
+        top: 0px;
+        left: 450px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+    .mygtukas {
+        top: 500px;
+    }
+}
+@media screen and (max-width: 640px) {
+    .mygtukas {
+        width: 225px;
+        height: 100px;
+        left: 225px;
+    }
+    .mygtukas2 {
+        left: 0px;
+    }
+    .uzsakymai {
+        max-height: 900px;
+        width: 250px;
+        background-color: grey;
+        top: 0px;
+        left: 450px;
+    }
+    .uzsakymoLapelis {
+        right: 50px;
+        position: relative;
+    }
+}

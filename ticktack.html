@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Tick Tack</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    .fonas{
+        background-color: black;
+        position: relative;
+        width: 340px;
+        height: 340px;
+    }
+    .langelis{
+        background-color: white;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+    }
+    #l2, #l5, #l8{
+        left: 120px;
+    }
+    #l3, #l6, #l9{
+        left: 240px;
+    }
+    #l4, #l5, #l6{
+        top: 120px;
+    }
+    #l7, #l8, #l9{
+        top: 240px;
+    }
+    button{
+        color: transparent;
+        background-color: transparent;
+        border: 0px;
+    }
+    .notice{
+        position: relative;
+        font-size: 30pt;        
+    }
+    .active{
+        width: 400px;;
+        height: 250px;
+        background-color: rgba(83, 64, 64, 0.808);
+        color: whitesmoke;
+        text-align: center;
+        line-height: 250px;
+        bottom: 300px;
+    }
+    .clear{
+        border: 1px solid black;
+        background-color: whitesmoke;
+        color: black;
+        width: 100px;
+        height: 30px;
+        position: relative;
+        top: -200px;
+    }
+    .score{
+        width: 200px;
+        height: 50px;
+        position: absolute;
+        top: 430px;
+        left: 70px;
+        line-height: 50px;
+        font-size: 50px;
+        text-align: center;
+        border: 1px solid blue;
+    }
+    .tick, .tack{
+        width: 70px;
+        height: 50px;
+        position: relative;
+    }
+    .tick{
+        right: 1px;
+        bottom: 1px;
+    }
+    .tack{
+        left: 129px;
+        bottom: 103px;
+    }
+    p{
+        position: relative;
+        margin: 0px;
+        bottom: 50px;
+    }
+    #fototick{
+        position: relative;
+        left: 50px;
+    }
+    #fototack{
+        position: relative;
+        left: 85px;
+        bottom: 20px;
+        width: 60px;
+        height: 60px;
+    }
+    </style>
+</head>
+<body>
+    <div class="fonas">
+        <div class="langelis" id="l1" onclick="placeSign(this)"><button></button></div>
+        <div class="langelis" id="l2" onclick="placeSign(this)"><button></button></div>
+        <div class="langelis" id="l3" onclick="placeSign(this)"><button></button></div>
+        <div class="langelis" id="l4" onclick="placeSign(this)"><button></button></div>
+        <div class="langelis" id="l5" onclick="placeSign(this)"><button></button></div>
+        <div class="langelis" id="l6" onclick="placeSign(this)"><button></button></div>
+        <div class="langelis" id="l7" onclick="placeSign(this)"><button></button></div>
+        <div class="langelis" id="l8" onclick="placeSign(this)"><button></button></div>
+        <div class="langelis" id="l9" onclick="placeSign(this)"><button></button></div>
+    </div>
+    <img src='assets/tick.png' id="fototick">
+    <img src='assets/tack.png' id="fototack">
+    <div class="score"><div class="tick"></div> <p>:</p> <div class="tack"></div></div>
+    <div class="notice"></div>
+    
+    
+    <script src="js/ticktack.js"></script>
+</body>
+</html>

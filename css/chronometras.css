@@ -1,0 +1,35 @@
+.chronometras{
+    border-radius: 50%;
+    border-top-right-radius: 0;
+    background-color: grey;
+    width: 500px;
+    height: 500px;
+    border: 1px solid greenyellow;
+}
+.mygtukas{
+    position: relative;
+    top: 275px;
+    left: 100px;
+    background-color: grey;
+    color: greenyellow;
+    border: 1px solid greenyellow;
+    width: 100px;
+    height: 40px;
+}
+.ekranas{
+    position: relative;
+    background-color: grey;
+    color: greenyellow;
+    border: 1px solid greenyellow;
+    width: 300px;
+    height: 50px;
+    top: 150px;
+    left: 100px;
+    font-size: 40px;
+}
+p{
+    margin: 0;
+}
+.laikas{
+    text-align: right;
+}

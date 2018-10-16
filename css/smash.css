@@ -1,0 +1,133 @@
+*{
+    margin: 0px auto;
+}
+.gameboard{
+    background-color: skyblue;
+    width: 100vw;
+    height: 100vh;
+}
+.menu{
+    position: relative;
+    align-self: center;
+    top: 10vh;
+    width: 50vw;
+    padding: 20vh 0 20vh 0;
+    background-color: rgba(128, 128, 128, 0.75);
+    z-index: 1000;
+}
+.ranks{
+    text-align: center
+}
+.score{
+    font-size: 72pt;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+.level{
+    font-size: 36pt;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+button{
+    border: 1px solid rgb(230, 230, 34);
+    background-color: rgba(0, 139, 194, 0.5);
+    color: rgb(230, 230, 34);
+    width: 70px;
+    height: 35px;
+    display: block;
+}
+button:hover{
+    background-color: rgba(0, 183, 255, 0.699);
+}
+.worm{
+    width: 160px;
+    height: 150px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    background-color: rgb(230, 230, 34);
+    position: absolute;
+    bottom: 0px;
+}
+#worm2{
+    margin-left: 40vw;
+}
+#worm1{
+    margin-left: 20vw;
+}
+#worm3{
+    margin-left: 60vw;
+}
+.leye{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    position: relative;
+    top: 25px;
+    right: 25px;
+}
+.reye{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    position: relative;
+    left: 25px;
+}
+.leyeDot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    right: 2px;
+    top: 5px;
+}
+.reyeDot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+.mouth{
+    background-color: red;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    width: 30px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+}
+@media screen and (max-width: 800px){
+    .worm{
+        width: 20vw;
+        border-top-left-radius: 10vw;
+        border-top-right-radius: 10vw;
+    }
+    #worm1{
+        left: 10vw;
+        margin-left: 0;
+    }
+    #worm2{
+        left: 40vw;
+        margin-left: 0;
+    }
+    #worm3{
+        left: 70vw;
+        margin-left: 0;
+    }
+    .leye{
+        right: 5vw;
+    }
+    .reye{
+        left: 5vw;
+    }
+    .menu{
+        padding: 5vh 0 5vh 0;
+    }
+}

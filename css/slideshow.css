@@ -1,0 +1,39 @@
+*{
+    margin: 0px auto;
+}
+.remas{
+    width: 500px;
+    height: 500px;
+}
+.konteineris{
+    width: 480px;
+    height: 480px;
+    background-size: cover;
+}
+img{
+    width: 480px;
+    height: 480px;
+}
+.button{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(255, 177, 255);
+    color: rgb(0, 92, 0);
+}
+.karusele{
+    font-size: 72pt;
+    background-color: transparent;
+    color: transparent;
+    border: 0px;
+    position: relative;
+    z-index: 1090;
+    top: -500px;
+    height: 500px;
+}
+.karusele:hover{
+    background-color: rgba(255, 255, 255, 0.178);
+    color: white;
+}
+#pirmyn{
+    float: right;
+}

@@ -1,0 +1,89 @@
+*{
+    margin: 0px auto;
+    font-family: 'Montserrat', sans-serif;
+}
+.kairys {
+    background-color: rgba(13, 196, 13, 0.829);
+    width: 50%;
+    position: absolute;
+    min-height: 100%;
+}
+.desinys {
+    background-color: rgb(221, 65, 91);
+    width: 50%;
+    position: absolute;
+    right: 0px;
+    min-height: 100%;
+}
+textarea {
+    position: relative;
+    top: 100px;
+    width: 80%;
+    left: 10%;
+    min-height: 200px;
+    background-color: rgba(255, 255, 255, 0.315);
+    border: none;
+    text-align: center;
+    word-break: break-word;
+    line-height: normal;
+    font-size: 16pt;
+    resize: vertical;
+}
+.text {
+    position: relative;
+    top: 150px;
+    width: 80%;
+    min-height: 200px;
+    background-color: rgba(255, 255, 255, 0.315);
+    text-align: center;
+    word-break: break-word;
+    font-size: 16pt;
+}
+
+.button {
+    position: relative;
+    height: 40px;
+    width: 20%;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.404);
+    top: 200px;
+    left: 40%
+}
+#copyButton1, #copyButton2 {
+    position: relative;
+    left: 40%;
+    top: 120px;
+    width: 20%;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.404);
+    border: 0px;
+}
+.btn {
+    z-index: 100;
+}
+
+@media screen and (max-height: 650px){
+    .desinys, .kairys {
+        min-height: 650px;
+    }
+}
+@media screen and (max-width: 650px){
+    .button {
+        width: 70%;
+        left: 15%;
+        top: 110px;
+    }
+    .text {
+        top: 60px;
+        font-size: 12pt;
+    }
+    textarea {
+        font-size: 12pt;
+        top: 10px;
+    }
+    #copyButton1, #copyButton2 {
+        width: 70%;
+        left: 15%;
+        top: 30px;
+    }
+}
